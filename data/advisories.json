@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T04:52:11Z",
+ "generated_at": "2026-11-26T15:18:23Z",
  "kev_version": "2026.11.25",
  "advisories": [
   {
@@ -69,7 +69,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-3519",
@@ -103,7 +103,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-4966",
@@ -116,7 +116,7 @@
    "ransomware": true,
    "published": "2023-10-18",
    "cvss": 9.4,
-   "epss": 0.72378,
+   "epss": 0.99999,
    "condition_feature": "gateway_enabled",
    "match_tier": "Auto-matched",
    "ranges": [
@@ -144,7 +144,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-6549",
@@ -185,7 +185,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-6548",
@@ -226,7 +226,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-6543",
@@ -260,7 +260,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-5777",
@@ -294,7 +294,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-7775",
@@ -328,7 +328,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-3055",
@@ -362,7 +362,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-8452",
@@ -396,7 +396,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-19490",
@@ -430,7 +430,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-88772",
@@ -464,7 +464,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-88771",
@@ -498,7 +498,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-88779",
@@ -539,7 +539,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-46805",
@@ -573,7 +573,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2024-21887",
@@ -607,7 +607,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2024-21893",
@@ -641,7 +641,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-0282",
@@ -668,7 +668,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-22457",
@@ -687,7 +687,7 @@
    "ranges": [],
    "note": "The record lists no affected range this tool can read",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-104935",
@@ -706,7 +706,7 @@
    "ranges": [],
    "note": "The record lists no affected range this tool can read",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-118527",
@@ -725,7 +725,7 @@
    "ranges": [],
    "note": "The record lists no affected range this tool can read",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-111357",
@@ -752,7 +752,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-36844",
@@ -835,7 +835,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-36845",
@@ -847,78 +847,14 @@
    "kev": true,
    "ransomware": false,
    "published": "2023-11-13",
-   "cvss": 9.8,
+   "cvss": null,
    "epss": 0.91411,
    "condition_feature": "jweb_enabled",
-   "match_tier": "Auto-matched",
-   "ranges": [
-    {
-     "min": "0",
-     "max": "20.4R3-S9",
-     "inc": false,
-     "fixed": "20.4R3-S9",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.2",
-     "max": "21.2R3-S7",
-     "inc": false,
-     "fixed": "21.2R3-S7",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.3",
-     "max": "21.3R3-S5",
-     "inc": false,
-     "fixed": "21.3R3-S5",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.4",
-     "max": "21.4R3-S5",
-     "inc": false,
-     "fixed": "21.4R3-S5",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.1",
-     "max": "22.1R3-S4",
-     "inc": false,
-     "fixed": "22.1R3-S4",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.2",
-     "max": "22.2R3-S2",
-     "inc": false,
-     "fixed": "22.2R3-S2",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.3",
-     "max": "22.3R2-S2",
-     "inc": false,
-     "fixed": "22.3R2-S2",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.4",
-     "max": "22.4R2-S1",
-     "inc": false,
-     "fixed": "22.4R2-S1",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "23,2",
-     "max": "23.2R1-S1",
-     "inc": false,
-     "fixed": "23.2R1-S1",
-     "tier": "Auto-matched"
-    }
-   ],
-   "note": "",
+   "match_tier": "Needs review",
+   "ranges": [],
+   "note": "CVE record not readable: HTTP Error 429: Too Many Requests",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-36846",
@@ -994,7 +930,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-36847",
@@ -1006,71 +942,14 @@
    "kev": true,
    "ransomware": false,
    "published": "2023-11-13",
-   "cvss": 5.3,
+   "cvss": null,
    "epss": 0.12749,
    "condition_feature": "jweb_enabled",
-   "match_tier": "Auto-matched",
-   "ranges": [
-    {
-     "min": "0",
-     "max": "20.4R3-S8",
-     "inc": false,
-     "fixed": "20.4R3-S8",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.2",
-     "max": "21.2R3-S6",
-     "inc": false,
-     "fixed": "21.2R3-S6",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.3",
-     "max": "21.3R3-S5",
-     "inc": false,
-     "fixed": "21.3R3-S5",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "21.4",
-     "max": "21.4R3-S4",
-     "inc": false,
-     "fixed": "21.4R3-S4",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.1",
-     "max": "22.1R3-S3",
-     "inc": false,
-     "fixed": "22.1R3-S3",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.2",
-     "max": "22.2R3-S1",
-     "inc": false,
-     "fixed": "22.2R3-S1",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.3",
-     "max": "22.3R2-S2",
-     "inc": false,
-     "fixed": "22.3R2-S2",
-     "tier": "Auto-matched"
-    },
-    {
-     "min": "22.4",
-     "max": "22.4R2-S1",
-     "inc": false,
-     "fixed": "22.4R2-S1",
-     "tier": "Auto-matched"
-    }
-   ],
-   "note": "",
+   "match_tier": "Needs review",
+   "ranges": [],
+   "note": "CVE record not readable: HTTP Error 429: Too Many Requests",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2023-36851",
@@ -1139,7 +1018,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2025-21590",
@@ -1208,7 +1087,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2024-40766",
@@ -1249,7 +1128,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2024-53704",
@@ -1290,7 +1169,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   },
   {
    "advisory_id": "CVE-2026-19868",
@@ -1324,7 +1203,7 @@
    ],
    "note": "",
    "source_type": "CISA KEV and CVE record",
-   "last_checked": "2026-11-26T04:52:11Z"
+   "last_checked": "2026-11-26T15:18:23Z"
   }
  ]
 }
