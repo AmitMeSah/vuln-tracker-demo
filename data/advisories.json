@@ -1,0 +1,1330 @@
+{
+ "generated_at": "2026-11-26T03:40:11Z",
+ "kev_version": "2026.11.25",
+ "advisories": [
+  {
+   "advisory_id": "CVE-2026-7473",
+   "cve": "CVE-2026-7473",
+   "vendor": "Arista",
+   "product": "EOS",
+   "title": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-06-09",
+   "cvss": 5.8,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "4.36.0",
+     "max": "4.36.0",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "4.35.0",
+     "max": "4.35",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "4.34.0",
+     "max": "4.34",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "4.33.0",
+     "max": "4.33",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "4.32.0",
+     "max": "4.32",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "4.31.0",
+     "max": "4.31",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "0",
+     "max": "4.30",
+     "inc": true,
+     "fixed": "a fixed release listed in the vendor advisory",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-3519",
+   "cve": "CVE-2023-3519",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2023-07-19",
+   "cvss": 9.8,
+   "epss": null,
+   "condition_feature": "gateway_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "13.1-0",
+     "max": "13.1-49.13",
+     "inc": false,
+     "fixed": "13.1-49.13",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.0-0",
+     "max": "13.0-91.13",
+     "inc": false,
+     "fixed": "13.0-91.13",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-4966",
+   "cve": "CVE-2023-4966",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+   "required_action": "Apply mitigations and kill all active and persistent sessions per vendor instructions [https://www.netscaler.com/blog/news/cve-2023-4966-critical-security-update-now-available-for-netscaler-adc-and-netscaler-gateway/] OR discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2023-10-18",
+   "cvss": 9.4,
+   "epss": null,
+   "condition_feature": "gateway_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-8.50",
+     "inc": false,
+     "fixed": "14.1-8.50",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-49.15",
+     "inc": false,
+     "fixed": "13.1-49.15",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.0-0",
+     "max": "13.0-92.19",
+     "inc": false,
+     "fixed": "13.0-92.19",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-6549",
+   "cve": "CVE-2023-6549",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and NetScaler Gateway Buffer Overflow Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2024-01-17",
+   "cvss": 8.2,
+   "epss": null,
+   "condition_feature": "gateway_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-12.35",
+     "inc": false,
+     "fixed": "14.1-12.35",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-51.15",
+     "inc": false,
+     "fixed": "13.1-51.15",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.0-0",
+     "max": "13.0-92.21",
+     "inc": false,
+     "fixed": "13.0-92.21",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-6548",
+   "cve": "CVE-2023-6548",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and NetScaler Gateway Code Injection Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2024-01-17",
+   "cvss": 5.5,
+   "epss": null,
+   "condition_feature": "admin_portal_exposed",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-12.35",
+     "inc": false,
+     "fixed": "14.1-12.35",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-51.15",
+     "inc": false,
+     "fixed": "13.1-51.15",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.0-0",
+     "max": "13.0-92.21",
+     "inc": false,
+     "fixed": "13.0-92.21",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-6543",
+   "cve": "CVE-2025-6543",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and Gateway Buffer Overflow Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2025-06-30",
+   "cvss": 9.2,
+   "epss": null,
+   "condition_feature": "gateway_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-47.46",
+     "inc": false,
+     "fixed": "14.1-47.46",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-59.19",
+     "inc": false,
+     "fixed": "13.1-59.19",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-5777",
+   "cve": "CVE-2025-5777",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and Gateway Out-of-Bounds Read Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2025-07-10",
+   "cvss": 9.3,
+   "epss": null,
+   "condition_feature": "gateway_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-43.56",
+     "inc": false,
+     "fixed": "14.1-43.56",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-58.32",
+     "inc": false,
+     "fixed": "13.1-58.32",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-7775",
+   "cve": "CVE-2025-7775",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Memory Overflow Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2025-08-26",
+   "cvss": 9.2,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-47.48",
+     "inc": false,
+     "fixed": "14.1-47.48",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-59.22",
+     "inc": false,
+     "fixed": "13.1-59.22",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-3055",
+   "cve": "CVE-2026-3055",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-03-30",
+   "cvss": 9.3,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-66.59",
+     "inc": false,
+     "fixed": "14.1-66.59",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-62.23",
+     "inc": false,
+     "fixed": "13.1-62.23",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-8452",
+   "cve": "CVE-2026-8452",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-08-26",
+   "cvss": 8.8,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-72.61",
+     "inc": false,
+     "fixed": "14.1-72.61",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-63.18",
+     "inc": false,
+     "fixed": "13.1-63.18",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-19490",
+   "cve": "CVE-2026-19490",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-09-09",
+   "cvss": 9.3,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-73.32",
+     "inc": true,
+     "fixed": "a later release than 14.1-73.32",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-63.21",
+     "inc": true,
+     "fixed": "a later release than 13.1-63.21",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-88772",
+   "cve": "CVE-2026-88772",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-09-27",
+   "cvss": 9.5,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-73.37",
+     "inc": false,
+     "fixed": "14.1-73.37",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-64.23",
+     "inc": false,
+     "fixed": "13.1-64.23",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-88771",
+   "cve": "CVE-2026-88771",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Improper Input Validation Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-09-27",
+   "cvss": 9.5,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-73.37",
+     "inc": false,
+     "fixed": "14.1-73.37",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-64.23",
+     "inc": false,
+     "fixed": "13.1-64.23",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-88779",
+   "cve": "CVE-2026-88779",
+   "vendor": "Citrix",
+   "product": "NetScaler ADC",
+   "title": "Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-10-04",
+   "cvss": 8.7,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "14.1-0",
+     "max": "14.1-73.41",
+     "inc": false,
+     "fixed": "14.1-73.41",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-64.28",
+     "inc": false,
+     "fixed": "13.1-64.28",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "13.1-0",
+     "max": "13.1-37.282",
+     "inc": false,
+     "fixed": "13.1-37.282",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-46805",
+   "cve": "CVE-2023-46805",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure and Policy Secure Authentication Bypass Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2024-01-10",
+   "cvss": 8.2,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "9.1R18",
+     "max": "9.1R18",
+     "inc": true,
+     "fixed": "a later release than 9.1R18",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.6R2",
+     "max": "22.6R2",
+     "inc": true,
+     "fixed": "a later release than 22.6R2",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2024-21887",
+   "cve": "CVE-2024-21887",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure and Policy Secure Command Injection Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2024-01-10",
+   "cvss": 9.1,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "9.1R18",
+     "max": "9.1R18",
+     "inc": true,
+     "fixed": "a later release than 9.1R18",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.6R2",
+     "max": "22.6R2",
+     "inc": true,
+     "fixed": "a later release than 22.6R2",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2024-21893",
+   "cve": "CVE-2024-21893",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure, Policy Secure, and Neurons Server-Side Request Forgery (SSRF) Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2024-01-31",
+   "cvss": 8.2,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "9.1R18",
+     "max": "9.1R18",
+     "inc": true,
+     "fixed": "a later release than 9.1R18",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.6R2",
+     "max": "22.6R2",
+     "inc": true,
+     "fixed": "a later release than 22.6R2",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-0282",
+   "cve": "CVE-2025-0282",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+   "required_action": "Apply mitigations as set forth in the CISA instructions linked below to include conducting hunt activities, taking remediation actions if applicable, and applying updates prior to returning a device to service.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2025-01-08",
+   "cvss": 9,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "22.7R2",
+     "max": "22.7R2.4",
+     "inc": true,
+     "fixed": "22.7R2.5",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-22457",
+   "cve": "CVE-2025-22457",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure, Policy Secure, and ZTA Gateways Stack-Based Buffer Overflow Vulnerability",
+   "required_action": "Apply mitigations as set forth in the CISA instructions linked below.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2025-04-04",
+   "cvss": 9,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Needs review",
+   "ranges": [],
+   "note": "The record lists no affected range this tool can read",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-104935",
+   "cve": "CVE-2026-104935",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-10-13",
+   "cvss": 8.6,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Needs review",
+   "ranges": [],
+   "note": "The record lists no affected range this tool can read",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-118527",
+   "cve": "CVE-2026-118527",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-10-30",
+   "cvss": 4.3,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Needs review",
+   "ranges": [],
+   "note": "The record lists no affected range this tool can read",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-111357",
+   "cve": "CVE-2026-111357",
+   "vendor": "Ivanti",
+   "product": "Connect Secure",
+   "title": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-10-30",
+   "cvss": 7,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "22.8R2.4",
+     "max": "22.8R2.4",
+     "inc": true,
+     "fixed": "a later release than 22.8R2.4",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-36844",
+   "cve": "CVE-2023-36844",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS EX Series PHP External Variable Modification Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2023-11-13",
+   "cvss": 5.3,
+   "epss": null,
+   "condition_feature": "jweb_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "0",
+     "max": "20.4R3-S9",
+     "inc": false,
+     "fixed": "20.4R3-S9",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.2",
+     "max": "21.2R3-S6",
+     "inc": false,
+     "fixed": "21.2R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.3",
+     "max": "21.3R3-S5",
+     "inc": false,
+     "fixed": "21.3R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S5",
+     "inc": false,
+     "fixed": "21.4R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.1",
+     "max": "22.1R3-S4",
+     "inc": false,
+     "fixed": "22.1R3-S4",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S2",
+     "inc": false,
+     "fixed": "22.2R3-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.3",
+     "max": "22.3R3-S1",
+     "inc": false,
+     "fixed": "22.3R3-S1",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R2-S2",
+     "inc": false,
+     "fixed": "22.4R2-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "23.2",
+     "max": "23.2R1-S1",
+     "inc": false,
+     "fixed": "23.2R1-S1",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-36845",
+   "cve": "CVE-2023-36845",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS EX Series and SRX Series PHP External Variable Modification Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2023-11-13",
+   "cvss": 9.8,
+   "epss": null,
+   "condition_feature": "jweb_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "0",
+     "max": "20.4R3-S9",
+     "inc": false,
+     "fixed": "20.4R3-S9",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.2",
+     "max": "21.2R3-S7",
+     "inc": false,
+     "fixed": "21.2R3-S7",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.3",
+     "max": "21.3R3-S5",
+     "inc": false,
+     "fixed": "21.3R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S5",
+     "inc": false,
+     "fixed": "21.4R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.1",
+     "max": "22.1R3-S4",
+     "inc": false,
+     "fixed": "22.1R3-S4",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S2",
+     "inc": false,
+     "fixed": "22.2R3-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.3",
+     "max": "22.3R2-S2",
+     "inc": false,
+     "fixed": "22.3R2-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R2-S1",
+     "inc": false,
+     "fixed": "22.4R2-S1",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "23,2",
+     "max": "23.2R1-S1",
+     "inc": false,
+     "fixed": "23.2R1-S1",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-36846",
+   "cve": "CVE-2023-36846",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2023-11-13",
+   "cvss": 5.3,
+   "epss": null,
+   "condition_feature": "jweb_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "0",
+     "max": "20.4R3-S8",
+     "inc": false,
+     "fixed": "20.4R3-S8",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.2",
+     "max": "21.2R3-S6",
+     "inc": false,
+     "fixed": "21.2R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.3",
+     "max": "21.3R3-S5",
+     "inc": false,
+     "fixed": "21.3R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S5",
+     "inc": false,
+     "fixed": "21.4R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.1",
+     "max": "22.1R3-S3",
+     "inc": false,
+     "fixed": "22.1R3-S3",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S2",
+     "inc": false,
+     "fixed": "22.2R3-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.3",
+     "max": "22.3R2-S2",
+     "inc": false,
+     "fixed": "22.3R2-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R2-S1",
+     "inc": false,
+     "fixed": "22.4R2-S1",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-36847",
+   "cve": "CVE-2023-36847",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS EX Series Missing Authentication for Critical Function Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2023-11-13",
+   "cvss": 5.3,
+   "epss": null,
+   "condition_feature": "jweb_enabled",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "0",
+     "max": "20.4R3-S8",
+     "inc": false,
+     "fixed": "20.4R3-S8",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.2",
+     "max": "21.2R3-S6",
+     "inc": false,
+     "fixed": "21.2R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.3",
+     "max": "21.3R3-S5",
+     "inc": false,
+     "fixed": "21.3R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S4",
+     "inc": false,
+     "fixed": "21.4R3-S4",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.1",
+     "max": "22.1R3-S3",
+     "inc": false,
+     "fixed": "22.1R3-S3",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S1",
+     "inc": false,
+     "fixed": "22.2R3-S1",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.3",
+     "max": "22.3R2-S2",
+     "inc": false,
+     "fixed": "22.3R2-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R2-S1",
+     "inc": false,
+     "fixed": "22.4R2-S1",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2023-36851",
+   "cve": "CVE-2023-36851",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2023-11-13",
+   "cvss": 5.3,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "21.2",
+     "max": "21.2R3-S8",
+     "inc": false,
+     "fixed": "21.2R3-S8",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S6",
+     "inc": false,
+     "fixed": "21.4R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.1",
+     "max": "22.1R3-S5",
+     "inc": false,
+     "fixed": "22.1R3-S5",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S3",
+     "inc": false,
+     "fixed": "22.2R3-S3",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.3",
+     "max": "22.3R3-S2",
+     "inc": false,
+     "fixed": "22.3R3-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R2-S2",
+     "inc": false,
+     "fixed": "22.4R2-S2",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "23.2",
+     "max": "23.2R1-S2",
+     "inc": false,
+     "fixed": "23.2R1-S2",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2025-21590",
+   "cve": "CVE-2025-21590",
+   "vendor": "Juniper",
+   "product": "Junos OS",
+   "title": "Juniper Junos OS Improper Isolation or Compartmentalization Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2025-03-13",
+   "cvss": 4.4,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Auto-matched",
+   "ranges": [
+    {
+     "min": "0",
+     "max": "21.2R3-S9",
+     "inc": false,
+     "fixed": "21.2R3-S9",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "21.4",
+     "max": "21.4R3-S10",
+     "inc": false,
+     "fixed": "21.4R3-S10",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.2",
+     "max": "22.2R3-S6",
+     "inc": false,
+     "fixed": "22.2R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "22.4",
+     "max": "22.4R3-S6",
+     "inc": false,
+     "fixed": "22.4R3-S6",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "23.2",
+     "max": "23.2R2-S3",
+     "inc": false,
+     "fixed": "23.2R2-S3",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "23.4",
+     "max": "23.4R2-S4",
+     "inc": false,
+     "fixed": "23.4R2-S4",
+     "tier": "Auto-matched"
+    },
+    {
+     "min": "24.2",
+     "max": "24.2R1-S2",
+     "inc": false,
+     "fixed": "24.2R1-S2",
+     "tier": "Auto-matched"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2024-40766",
+   "cve": "CVE-2024-40766",
+   "vendor": "SonicWall",
+   "product": "SonicOS",
+   "title": "SonicWall SonicOS Improper Access Control Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2024-09-09",
+   "cvss": 9.3,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Needs review",
+   "ranges": [
+    {
+     "min": "5.0",
+     "max": "5.9.2.14-12o",
+     "inc": true,
+     "fixed": "a later release than 5.9.2.14-12o",
+     "tier": "Needs review"
+    },
+    {
+     "min": "6.0",
+     "max": "6.5.4.14-109n",
+     "inc": true,
+     "fixed": "a later release than 6.5.4.14-109n",
+     "tier": "Needs review"
+    },
+    {
+     "min": "7.0",
+     "max": "7.0.1-5035",
+     "inc": true,
+     "fixed": "a later release than 7.0.1-5035",
+     "tier": "Needs review"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2024-53704",
+   "cve": "CVE-2024-53704",
+   "vendor": "SonicWall",
+   "product": "SonicOS",
+   "title": "SonicWall SonicOS SSLVPN Improper Authentication Vulnerability",
+   "required_action": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+   "kev": true,
+   "ransomware": true,
+   "published": "2025-02-18",
+   "cvss": 8.2,
+   "epss": null,
+   "condition_feature": "sslvpn_enabled",
+   "match_tier": "Needs review",
+   "ranges": [
+    {
+     "min": "7.0",
+     "max": "7.1.1-7058",
+     "inc": true,
+     "fixed": "a later release than 7.1.1-7058",
+     "tier": "Needs review"
+    },
+    {
+     "min": "7.1.2-7019",
+     "max": "7.1.2-7019",
+     "inc": true,
+     "fixed": "a later release than 7.1.2-7019",
+     "tier": "Needs review"
+    },
+    {
+     "min": "8.0.0-8035",
+     "max": "8.0.0-8035",
+     "inc": true,
+     "fixed": "a later release than 8.0.0-8035",
+     "tier": "Needs review"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  },
+  {
+   "advisory_id": "CVE-2026-19868",
+   "cve": "CVE-2026-19868",
+   "vendor": "SonicWall",
+   "product": "SonicOS",
+   "title": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
+   "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+   "kev": true,
+   "ransomware": false,
+   "published": "2026-11-06",
+   "cvss": 7.5,
+   "epss": null,
+   "condition_feature": "",
+   "match_tier": "Needs review",
+   "ranges": [
+    {
+     "min": "7.0",
+     "max": "7.3.3-7015",
+     "inc": true,
+     "fixed": "a later release than 7.3.3-7015",
+     "tier": "Needs review"
+    },
+    {
+     "min": "8.0",
+     "max": "8.2.2-8015",
+     "inc": true,
+     "fixed": "a later release than 8.2.2-8015",
+     "tier": "Needs review"
+    }
+   ],
+   "note": "",
+   "source_type": "CISA KEV and CVE record",
+   "last_checked": "2026-11-26T03:40:11Z"
+  }
+ ]
+}

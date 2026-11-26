@@ -1,0 +1,62 @@
+[
+ {
+  "vendor": "Juniper",
+  "product": "Junos OS",
+  "path_type": "Release-window rule",
+  "path_rule": "Direct jump allowed up to 3 releases ahead; EEOL releases can jump to the next 2 EEOL releases. Further than that: stage via an intermediate release.",
+  "advisory_ref": "Junos release notes: Upgrade and Downgrade Support Policy + Installation and Upgrade Guide",
+  "source_url": "https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/install-software-on-routing-engines.html",
+  "min_per_hop_standalone": 25,
+  "min_per_hop_redundant": 50,
+  "steps": "Get change approval, a tested rollback image and go/no-go criteria before the window||Back up configuration and snapshot the current image||Check the release notes for the target release (hardware and feature caveats)||Redundant: install on the backup unit first, reboot it, switch mastership, then install on the other unit||Standalone: install and reboot in the maintenance window; expect a full outage while it restarts||Verify routing sessions, services and licence state before closing the change||Roll back to the saved image if the post-checks fail",
+  "basis": "Path rule and redundant-unit order: vendor documentation (checked). Durations: illustrative planning estimate."
+ },
+ {
+  "vendor": "SonicWall",
+  "product": "SonicOS",
+  "path_type": "Check release notes",
+  "path_rule": "Upgrade with current settings from the firmware page. Confirm in the target release notes whether an intermediate version is needed.",
+  "advisory_ref": "SonicOS upgrade guide + target release notes",
+  "source_url": "https://www.sonicwall.com/support/technical-documentation/docs/sonicos-7-0-0-0-upgrade_guide/Content/Preparation/prep-backup-and-export-settings.htm",
+  "min_per_hop_standalone": 20,
+  "min_per_hop_redundant": 40,
+  "steps": "Get change approval, a tested rollback image and go/no-go criteria before the window||Create a system backup and export settings before starting||Upload the firmware and boot it with current configuration||HA pair: the secondary upgrades and reboots first, becomes active, then the primary upgrades and reboots||Standalone: all traffic stops during the reboot||Re-check the HA status screen shows both units healthy||Roll back to the saved image if the post-checks fail",
+  "basis": "Backup step and HA order: vendor documentation (checked, SonicOS 6.5 HA article and SonicOS 7 upgrade guide). Durations: illustrative planning estimate."
+ },
+ {
+  "vendor": "Ivanti",
+  "product": "Connect Secure",
+  "path_type": "Tested path table",
+  "path_rule": "Use the tested upgrade path table in the release notes; it may require an intermediate version. Run the external Integrity Checker Tool first when the advisory is exploited in the wild.",
+  "advisory_ref": "Release notes: Upgrade and Migration + vendor security advisory",
+  "source_url": "https://help.ivanti.com/ps/help/en_US/ICS/22.x/22.8R2.2/rn/upgrade_and_migration.htm",
+  "min_per_hop_standalone": 30,
+  "min_per_hop_redundant": 60,
+  "steps": "Get change approval, a tested rollback image and go/no-go criteria before the window||Run the external Integrity Checker Tool and review the result before upgrading||Take a system and user configuration backup||Follow the tested upgrade path table; do not start the upgrade from the external interface||If compromise is possible, follow the vendor or CISA guidance (factory reset from a known clean image, then patch)||Re-run the integrity check after the upgrade||Roll back to the saved image if the post-checks fail",
+  "basis": "Integrity check, tested path table and external-interface warning: vendor documentation and CISA guidance (checked). Durations: illustrative planning estimate."
+ },
+ {
+  "vendor": "Citrix",
+  "product": "NetScaler ADC",
+  "path_type": "Check upgrade-path table",
+  "path_rule": "Confirm the build is on the supported upgrade path in the NetScaler upgrade documentation. HA pairs must end on the same version.",
+  "advisory_ref": "NetScaler security bulletin + Upgrade and downgrade documentation",
+  "source_url": "https://docs.netscaler.com/us/en/citrix-adc/current-release/upgrade-downgrade-citrix-adc-appliance/upgrade-downgrade-ha-pair.html",
+  "min_per_hop_standalone": 25,
+  "min_per_hop_redundant": 55,
+  "steps": "Get change approval, a tested rollback image and go/no-go criteria before the window||Save the configuration and back up the appliance||HA pair: upgrade the secondary node first with sync and propagation disabled||Run a force failover so the upgraded node takes over, then upgrade the new secondary||Re-enable HA sync and propagation once both nodes match||After patching, terminate active sessions if the bulletin asks for it||Roll back to the saved image if the post-checks fail",
+  "basis": "HA order, force failover and matching versions: vendor documentation (checked). Durations: illustrative planning estimate."
+ },
+ {
+  "vendor": "Arista",
+  "product": "EOS",
+  "path_type": "Image replace and reload",
+  "path_rule": "Standard upgrade replaces the EOS image and reloads. Smart System Upgrade (reload fast-boot) is possible when the config and FPGA requirements allow it.",
+  "advisory_ref": "Arista security advisory (web page) + EOS upgrade documentation",
+  "source_url": "https://www.arista.com/en/um-eos/eos-standard-upgrades-and-downgrades",
+  "min_per_hop_standalone": 15,
+  "min_per_hop_redundant": 35,
+  "steps": "Get change approval, a tested rollback image and go/no-go criteria before the window||Copy the image to flash, verify the checksum, free enough flash space||Point the boot configuration to the new image||MLAG pair: upgrade one peer at a time, check MLAG state before the second peer||Standalone: reload in the window; reload fast-boot (SSU) can shorten the outage if the config allows it||Confirm BGP and MLAG state after reload||Roll back to the saved image if the post-checks fail",
+  "basis": "Image-replace flow, MLAG one-peer-at-a-time and SSU limits: vendor documentation (checked). Durations: illustrative planning estimate."
+ }
+]

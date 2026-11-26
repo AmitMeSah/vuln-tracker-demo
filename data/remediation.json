@@ -1,0 +1,290 @@
+[
+ {
+  "week_start": "2026-11-23",
+  "priority": "P1",
+  "opened": 3,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-16",
+  "priority": "P1",
+  "opened": 3,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-11-09",
+  "priority": "P1",
+  "opened": 1,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-02",
+  "priority": "P1",
+  "opened": 1,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-10-26",
+  "priority": "P1",
+  "opened": 3,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-10-19",
+  "priority": "P1",
+  "opened": 1,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-10-12",
+  "priority": "P1",
+  "opened": 0,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-10-05",
+  "priority": "P1",
+  "opened": 3,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-09-28",
+  "priority": "P1",
+  "opened": 0,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-21",
+  "priority": "P1",
+  "opened": 0,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-14",
+  "priority": "P1",
+  "opened": 1,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-09-07",
+  "priority": "P1",
+  "opened": 0,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-23",
+  "priority": "P2",
+  "opened": 2,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-16",
+  "priority": "P2",
+  "opened": 1,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-11-09",
+  "priority": "P2",
+  "opened": 2,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-02",
+  "priority": "P2",
+  "opened": 0,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-10-26",
+  "priority": "P2",
+  "opened": 3,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-10-19",
+  "priority": "P2",
+  "opened": 3,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-10-12",
+  "priority": "P2",
+  "opened": 2,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-10-05",
+  "priority": "P2",
+  "opened": 1,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-09-28",
+  "priority": "P2",
+  "opened": 0,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-21",
+  "priority": "P2",
+  "opened": 0,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-09-14",
+  "priority": "P2",
+  "opened": 0,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-09-07",
+  "priority": "P2",
+  "opened": 3,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-11-23",
+  "priority": "P3",
+  "opened": 2,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-11-16",
+  "priority": "P3",
+  "opened": 1,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-11-09",
+  "priority": "P3",
+  "opened": 0,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-02",
+  "priority": "P3",
+  "opened": 3,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-10-26",
+  "priority": "P3",
+  "opened": 3,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-10-19",
+  "priority": "P3",
+  "opened": 4,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-10-12",
+  "priority": "P3",
+  "opened": 2,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-10-05",
+  "priority": "P3",
+  "opened": 0,
+  "closed": 2
+ },
+ {
+  "week_start": "2026-09-28",
+  "priority": "P3",
+  "opened": 2,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-21",
+  "priority": "P3",
+  "opened": 3,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-14",
+  "priority": "P3",
+  "opened": 1,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-09-07",
+  "priority": "P3",
+  "opened": 0,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-11-23",
+  "priority": "P4",
+  "opened": 2,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-11-16",
+  "priority": "P4",
+  "opened": 3,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-11-09",
+  "priority": "P4",
+  "opened": 5,
+  "closed": 4
+ },
+ {
+  "week_start": "2026-11-02",
+  "priority": "P4",
+  "opened": 1,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-10-26",
+  "priority": "P4",
+  "opened": 4,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-10-19",
+  "priority": "P4",
+  "opened": 5,
+  "closed": 1
+ },
+ {
+  "week_start": "2026-10-12",
+  "priority": "P4",
+  "opened": 3,
+  "closed": 5
+ },
+ {
+  "week_start": "2026-10-05",
+  "priority": "P4",
+  "opened": 3,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-28",
+  "priority": "P4",
+  "opened": 3,
+  "closed": 3
+ },
+ {
+  "week_start": "2026-09-21",
+  "priority": "P4",
+  "opened": 1,
+  "closed": 0
+ },
+ {
+  "week_start": "2026-09-14",
+  "priority": "P4",
+  "opened": 2,
+  "closed": 4
+ },
+ {
+  "week_start": "2026-09-07",
+  "priority": "P4",
+  "opened": 2,
+  "closed": 0
+ }
+]
